@@ -1,0 +1,25 @@
+# Should we commit this as an Eclipse/Aptana project? Probably not. #
+.project
+.classpath
+.settings/
+
+# Let Compass run and populate these. *
+.sass-cache/
+public/css-gen/*
+
+# Let Bower run and populate this. #
+bower_components/**/*
+
+# Let NPM and Grunt run and populate this. #
+node_modules/
+public/js/vendor/*
+public/js/vendor/**/*
+
+# OS files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
